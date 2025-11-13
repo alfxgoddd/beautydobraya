@@ -380,21 +380,20 @@ h2.section-title {
 @media (max-width: 900px) {
     
     .about-content {
-        width: 400px;
+        margin-left: -30px;
+        width: 350px;
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    
     .about-text {
         width: 300px;
-        margin-left: -10px;
-        text-align: left;
+        margin-left: 10%;
+        text-align: center;
         padding: 20px;
         grid-template-columns: 1fr;
         gap: 30px;
 
     }
-
     .about-image {
         width: 600px;
         margin-left: auto;
@@ -1303,6 +1302,7 @@ padding: 0px 0px;
 font-weight: 900;
 font-size: 40px;
 }
+
 
 
 
