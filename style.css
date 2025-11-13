@@ -378,6 +378,13 @@ h2.section-title {
 /* About Section */
 
 @media (max-width: 900px) {
+    
+    .about-content {
+        width: 400px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
     .about-text {
         width: 300px;
         margin-left: -10px;
@@ -1296,5 +1303,6 @@ padding: 0px 0px;
 font-weight: 900;
 font-size: 40px;
 }
+
 
 
