@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добрая | Студия ухода за телом</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo" id="logo">Добрая</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#pricing">Цены</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#social">Социальные сети</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <a id="main" href="https://dikidi.net/624247?p=0.pi" target="_blank" class="booking-btn">Записаться онлайн</a>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран с большим изображением -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span id="maindobr">Добрая</span>
+                <h1 class="hero-title" style="color: rgb(161, 161, 161);">студия ухода за телом</h1>
+                <p style="color: rgb(161, 161, 161);" class="hero-subtitle">Здесь про здоровье, красоту и гладкость твоего тела</p>
+                <a id="bigmain" href="https://dikidi.net/624247?p=0.pi" target="_blank" class="booking-btn">Записаться</a>
+            </div>
+        </div>
+    </section>
+    <!-- Видео блок -->
+<section class="video-section" id="video">
+    <div class="container">
+        <h2 class="section-title"></h2>
+        <div class="video-container">
+            <div class="video-wrapper">
+                <video class="custom-video" poster="images/ff8860c5-7b21-47f5-b31d-0d80f7a57c14.jpg" preload="metadata">
+                    <source src="videos/IMG_0798.MP4" type="video/mp4">
+                    Ваш браузер не поддерживает видео тег.
+                </video>
+                
+                <!-- Постер видео -->
+                <div class="video-poster">
+                    <div class="play-button">
+                        <svg viewBox="0 0 24 24" width="64" height="64">
+                            <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z"/>
+                        </svg>
+                    </div>
+                    <div class="poster-text">
+                        <h3>Студия "Добрая"</h3>
+                        <p></p>
+                    </div>
+                </div>
+                
+                <!-- Кастомные контролы -->
+                <div class="video-controls">
+                    <button class="control-btn play-pause" aria-label="Воспроизвести/Пауза">
+                        <svg class="play-icon" viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="currentColor" d="M8,5.14V19.14L19,12.14L8,5.14Z"/>
+                        </svg>
+                        <svg class="pause-icon" viewBox="0 0 24 24" width="20" height="20" style="display: none;">
+                            <path fill="currentColor" d="M14,19H18V5H14M6,19H10V5H6V19Z"/>
+                        </svg>
+                    </button>
+                    
+                    <div class="progress-container">
+                        <div class="video-progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-handle"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="time-display">
+                        <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                    </div>
+                    
+                    <button class="control-btn volume-btn" aria-label="Звук">
+                        <svg class="volume-icon" viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="currentColor" d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z"/>
+                        </svg>
+                    </button>
+                    
+                    <button class="control-btn fullscreen-bt" aria-label="Полный экран">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="currentColor" d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="video-info">
+                <h3>Здесь про здоровье, красоту и гладкость твоего тела</h3>
+                <p></p>
+                <div class="video-features">
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span id="feature-1">Всё про правильный шугаринг</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span id="feature-2">Безопасная и результативная эпиляция</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">✓</span>
+                        <span id="feature-3">Работаем с беременными (шугаринг)</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Услуги -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="48" height="48">
+                            <path fill="currentColor" d="M9.5,13.09C10.85,13.09 12,12.44 12,11.64C12,10.84 10.85,10.18 9.5,10.18C8.15,10.18 7,10.84 7,11.64C7,12.44 8.15,13.09 9.5,13.09M9.5,14.91C7.54,14.91 5.91,13.59 5.91,11.64C5.91,9.69 7.54,8.36 9.5,8.36C11.46,8.36 13.09,9.69 13.09,11.64C13.09,13.59 11.46,14.91 9.5,14.91M16.5,13.09C17.85,13.09 19,12.44 19,11.64C19,10.84 17.85,10.18 16.5,10.18C15.15,10.18 14,10.84 14,11.64C14,12.44 15.15,13.09 16.5,13.09M16.5,14.91C14.54,14.91 12.91,13.59 12.91,11.64C12.91,9.69 14.54,8.36 16.5,8.36C18.46,8.36 20.09,9.69 20.09,11.64C20.09,13.59 18.46,14.91 16.5,14.91M21,23H3V21H21V23M12,2C13.66,2 15,3.34 15,5C15,6.66 13.66,8 12,8C10.34,8 9,6.66 9,5C9,3.34 10.34,2 12,2Z" />
+                        </svg>
+                    </div>
+                    <h3 id="h3">Лазерная эпиляция</h3>
+                    <p>Современный диодный лазер для эффективного и безболезненного удаления волос. Долговременный результат.</p>
+                    <div class="service-price">от 900₽</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="48" height="48">
+                            <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6Z" />
+                        </svg>
+                    </div>
+                    <h3 id="h3">Шугаринг</h3>
+                    <p>Натуральная сахарная паста для бережного удаления волос. Идеально для чувствительной кожи.</p>
+                    <div class="service-price">от 500₽</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="48" height="48">
+                            <path fill="currentColor" d="M12,3C7,3 3,7 3,12C3,17 7,21 12,21C17,21 21,17 21,12C21,7 17,3 12,3M12,19C8.1,19 5,15.9 5,12C5,8.1 8.1,5 12,5C15.9,5 19,8.1 19,12C19,15.9 15.9,19 12,19M12,17C14.8,17 17,14.8 17,12C17,9.2 14.8,7 12,7C9.2,7 7,9.2 7,12C7,14.8 9.2,17 12,17M12,15C10.3,15 9,13.7 9,12C9,10.3 10.3,9 12,9C13.7,9 15,10.3 15,12C15,13.7 13.7,15 12,15Z" />
+                        </svg>
+                    </div>
+                    <h3 id="h3">Депиляция воском</h3>
+                    <p>Классический горячий и теплый воск для разных зон. Быстро, эффективно и доступно.</p>
+                    <div class="service-price">от 450₽</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Прайс-лист -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Прайс-лист</h2>
+            <div class="pricing-container">
+                <div class="pricing-category">
+                    <h3>Лазерная эпиляция</h3>
+                    <div class="price-item">
+                        <div class="service-name">Лицо полностью</div>
+                        <div class="price">1790₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Верхняя губа/подбородок/бакенбарды</div>
+                        <div class="price">690₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Подмышки</div>
+                        <div class="price">990₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Бикини глубокое</div>
+                        <div class="price">2990₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Бикини классическое</div>
+                        <div class="price">1790₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Голени</div>
+                        <div class="price">2190₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Бёдра</div>
+                        <div class="price">2190₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Ноги полностью</div>
+                        <div class="price">3490₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Руки до локтя</div>
+                        <div class="price">1790₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Руки выше локтя</div>
+                        <div class="price">1490₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Руки полностью</div>
+                        <div class="price">2690₽</div>
+                    </div>
+                    <div class="price-item1">
+                        <div class="service-name"></div>
+                        <div class="price"></div>
+                    </div>
+                    <h3>Комплекс</h3>
+                    <div class="price-item">
+                        <div class="service-name">Бикини тотальное + подмышки</div>
+                        <div class="price">3290₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Бикини тотальное + голени</div>
+                        <div class="price">4490₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Подмышки + голени</div>
+                        <div class="price">2690₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Подмышки + голени + бикини тотальное</div>
+                        <div class="price">4790₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Ноги полностью + бикини тотальное + подмышки</div>
+                        <div class="price">6490₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Тело полностью(ноги полностью + руки полностью + бикини тотальное + подмышки + 1 малая зона)</div>
+                        <div class="price">8090₽</div>
+                    </div>
+                </div>
+                
+                <div class="pricing-category">
+                    <h3>Шугаринг/воск</h3>
+                    <div class="price-item">
+                        <div class="service-name">ТОТАЛЬНОЕ бикини сахар/воск</div>
+                        <div class="price">от 900/1300₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">КЛАССИЧЕСКОЕ бикини сахар/воск</div>
+                        <div class="price">от 500/900₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Ноги ПОЛНОСТЬЮ сахар/воск</div>
+                        <div class="price">от 1300/1400₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Голени сахар/воск</div>
+                        <div class="price">от 650/950₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Бёдра сахар/воск</div>
+                        <div class="price">от 650/950₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Руки до локтя/выше локтя</div>
+                        <div class="price">от 450₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Руки ПОЛНОСТЬЮ</div>
+                        <div class="price">от 800₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Подмышечные впадины сахар/воск</div>
+                        <div class="price">от 350/450₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Поясничная зона</div>
+                        <div class="price">от 350₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Живот</div>
+                        <div class="price">от 450₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Ягодицы</div>
+                        <div class="price">от 450₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Спина ПОЛНОСТЬЮ сахар</div>
+                        <div class="price">от 750₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Ореол сосков</div>
+                        <div class="price">от 350₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Усики/носик</div>
+                        <div class="price">от 400₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Временное тату</div>
+                        <div class="price">от 50/100₽</div>
+                    </div>
+                    <div class="price-item1">
+                        <div class="service-name"></div>
+                        <div class="price"></div>
+                    </div>
+                    <h3>Комплекс</h3>
+                    <div class="price-item">
+                        <div class="service-name">Royal combo: ноги + тотальное бикини + подмышки</div>
+                        <div class="price">от 2100₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Premium combo: голени + бикини + подмышки</div>
+                        <div class="price">от 1700₽</div>
+                    </div>
+
+                </div>
+                
+                <div class="pricing-category">
+                    <h3>Special menu</h3>
+                    <div class="price-item">
+                        <div class="service-name">Парафиновая маска руки/ноги</div>
+                        <div class="price">400₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Обёртывание антицеллюлитное</div>
+                        <div class="price">1050₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Интимное отбеливание</div>
+                        <div class="price">2050₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Энзимный пилинг бикини</div>
+                        <div class="price">750₽</div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">Энзимный пилинг ноги</div>
+                        <div class="price">750₽</div>
+                    </div>
+                    <div class="price-item1">
+                        <div class="service-name"></div>
+                        <div class="price"></div>
+                    </div>
+                    <div class="price-item1">
+                        <div class="service-name"></div>
+                        <div class="price"></div>
+                    </div>
+                    <div class="price-item1">
+                        <div class="service-name"></div>
+                        <div class="price"></div>
+                    </div>
+                    <div class="price-item1">
+                        <div class="service-name"></div>
+                        <div class="price"></div>
+                    </div>
+                    <div class="price-item">
+                        <div class="service-name">  Уважаемые клиенты! Вы можете применить процедуры из специального меню к некоторым основным процедурам. Подробности уточняйте при записи.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">О нашей студии</h2>
+                    <p id="about-description">Студия "Добрая" — это место, где мы создаем комфорт и заботимся о вашей красоте. Наша команда сертифицированных специалистов с многолетним опытом работы использует только современное оборудование и качественные материалы.</p>
+                    <p id="about-description">Мы понимаем, что каждый клиент уникален, поэтому подходим к работе индивидуально, учитывая все особенности вашей кожи и пожелания. Наша цель — сделать процедуры максимально комфортными и эффективными.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span id="hh">Современное оборудование</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span id="hh">Гигиена и стерильность</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span id="hh">Индивидуальный подход</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span id="hh" >Доступные цены</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img width="700px" border="15%" src="images/XXXl6.webp" alt="Наша студия">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Галерея -->
+<section class="gallery-section" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Галерея</h2>
+        <div class="gallery-container">
+            <div class="gallery-main">
+                <div class="gallery-slide active">
+                    <img src="images/XXXL5.webp" alt="Результат лазерной эпиляции" class="gallery-image">
+                    <div class="image-caption">Лазерная эпиляция - результат через 2 недели</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/XXXL (1).webp" alt="Процесс шугаринга" class="gallery-image">
+                    <div class="image-caption">Процесс шугаринга - натуральная сахарная паста</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/XXXL (2).webp" alt="Депиляция воском" class="gallery-image">
+                    <div class="image-caption">Депиляция воском - быстро и эффективно</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/XXXL.webp" alt="Интерьер студии" class="gallery-image">
+                    <div class="image-caption">Комфортный интерьер нашей студии</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/XXXL (4).webp" alt="Сертификаты специалистов" class="gallery-image">
+                    <div class="image-caption">Сертификаты и дипломы наших специалистов</div>
+                </div>
+                <div class="gallery-slide">
+                    <img src="images/XXXL (3).webp" alt="Стерильное оборудование" class="gallery-image">
+                    <div class="image-caption">Современное и стерильное оборудование</div>
+                </div>
+            </div>
+            
+            <!-- Кнопки навигации -->
+            <button class="gallery-nav prev" aria-label="Предыдущее фото">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+                </svg>
+            </button>
+            <button class="gallery-nav next" aria-label="Следующее фото">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
+            </button>
+            
+            <!-- Миниатюры -->
+            <div class="gallery-thumbnails">
+                <div class="thumbnail active" data-index="0">
+                    <img src="images/XXXL5.webp" alt="Миниатюра 1">
+                </div>
+                <div class="thumbnail" data-index="1">
+                    <img src="images/XXXL (1).webp" alt="Миниатюра 2">
+                </div>
+                <div class="thumbnail" data-index="2">
+                    <img src="images/XXXL (2).webp" alt="Миниатюра 3">
+                </div>
+                <div class="thumbnail" data-index="3">
+                    <img src="images/XXXL.webp" alt="Миниатюра 4">
+                </div>
+                <div class="thumbnail" data-index="4">
+                    <img src="images/XXXL (4).webp" alt="Миниатюра 5">
+                </div>
+                <div class="thumbnail" data-index="5">
+                    <img src="images/XXXL (3).webp" alt="Миниатюра 6">
+                </div>
+            </div>
+            
+            <!-- Счетчик -->
+            <div class="gallery-counter">
+                <span class="current-slide">1</span> / <span class="total-slides">6</span>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Блок социальных сетей -->
+<div class="social-section" id="social">
+    <h3>Мы в социальных сетях</h3>
+    <div class="social-buttons">
+        <a href="https://vk.com/dobraya_beauty" target="_blank" class="social-btn vk-btn">
+            <svg class="social-icon" viewBox="0 0 24 24">
+                <path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93V15.07C2 20.67 3.33 22 8.93 22H15.07C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2ZM18.15 16.27H16.41C16.13 16.27 15.9 16.26 15.73 15.9C15.29 15 14.84 14.11 14.38 13.23C14.24 13 14.1 12.74 14 12.47C13.91 12.2 13.93 12 14.15 11.85C15.34 11 16.38 9.94 17.27 8.68C17.45 8.42 17.6 8.14 17.69 7.82C17.78 7.54 17.65 7.3 17.36 7.3H15.66C15.39 7.3 15.17 7.43 15.03 7.63C14.67 8.11 14.27 8.55 13.84 8.96C13.62 9.17 13.43 9.42 13.26 9.68C13.14 9.85 13.01 10 12.82 10C12.71 10 12.56 9.96 12.44 9.9C12.32 9.84 12.21 9.75 12.12 9.64C11.94 9.41 11.8 9.15 11.68 8.88C11.33 8.06 11.12 7.18 11.06 6.29C11.04 6.04 10.95 5.8 10.72 5.7C10.6 5.65 10.25 5.58 10.01 5.58H8.29C7.95 5.58 7.75 5.84 7.75 6.15C7.77 7.44 8.06 8.7 8.6 9.85C8.72 10.11 8.85 10.36 9 10.6C9.08 10.73 9.15 10.87 9.19 11.02C9.24 11.23 9.2 11.39 9.03 11.54C8.66 11.86 8.25 12.13 7.82 12.36C7.64 12.46 7.44 12.52 7.24 12.54C6.93 12.57 6.74 12.8 6.78 13.1C6.8 13.25 6.85 13.39 6.93 13.52C7.52 14.41 8.39 15.08 9.4 15.43C10.73 15.89 12.12 16.04 13.5 15.88C13.81 15.85 14.06 15.63 14.08 15.32C14.09 15.2 14.07 15.08 14.02 14.97C13.89 14.67 13.73 14.39 13.55 14.12C13.4 13.89 13.24 13.67 13.08 13.45C12.86 13.15 12.68 12.82 12.58 12.47C12.52 12.27 12.59 12.12 12.78 12.03C13.72 11.53 14.52 10.81 15.12 9.94C15.31 9.66 15.48 9.37 15.62 9.07C15.74 8.81 15.93 8.7 16.21 8.7H18.03C18.32 8.7 18.49 8.94 18.41 9.22C18.25 9.78 17.92 10.27 17.52 10.69C17.17 11.05 16.78 11.37 16.38 11.68C16.16 11.85 15.96 12.04 15.79 12.26C15.6 12.5 15.47 12.78 15.41 13.08C15.36 13.31 15.43 13.47 15.65 13.57C16.36 13.9 17.02 14.32 17.62 14.82C18.13 15.25 18.56 15.76 18.89 16.33C19 16.52 18.98 16.7 18.81 16.84C18.65 16.98 18.42 17.04 18.19 17.01C18.18 17.01 18.16 17 18.15 16.99V16.27Z"/>
+            </svg>
+            <span>ВКонтакте</span>
+        </a>
+        
+        <a href="https://instagram.com/" target="_blank" class="social-btn instagram-btn">
+            <svg class="social-icon" viewBox="0 0 24 24">
+                <path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 19.4 19.4 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2ZM7.6 4C5.61 4 4 5.61 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C18.39 20 20 18.39 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7ZM12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9ZM17.5 6.5C18.05 6.5 18.5 6.05 18.5 5.5C18.5 4.95 18.05 4.5 17.5 4.5C16.95 4.5 16.5 4.95 16.5 5.5C16.5 6.05 16.95 6.5 17.5 6.5Z"/>
+            </svg>
+            <span>Instagram</span>
+        </a>
+        
+        <a href="https://t.me/dobraya_studio" target="_blank" class="social-btn telegram-btn">
+            <svg class="social-icon" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16.64 8.8C16.49 10.38 15.84 14.22 15.51 15.99C15.37 16.74 15.09 16.99 14.83 17.02C14.25 17.07 13.81 16.64 13.25 16.27C12.37 15.69 11.87 15.33 11.02 14.77C10.03 14.12 10.67 13.76 11.24 13.18C11.39 13.03 13.95 10.7 14 10.49C14.0093 10.4582 14.0093 10.4238 14 10.392C13.99 10.3602 13.9707 10.3324 13.945 10.3125C13.9193 10.2926 13.8887 10.2816 13.857 10.281C13.8253 10.2804 13.7942 10.2903 13.768 10.309C13.69 10.369 12.17 11.59 9.5 13.38C9.06 13.66 8.66 13.8 8.3 13.79C7.9 13.78 7.13 13.56 6.55 13.37C5.85 13.14 5.31 13.01 5.36 12.61C5.39 12.36 5.7 12.11 6.28 11.85C9.57 10.3 11.71 9.3 12.71 8.85C15.9 7.47 16.57 7.26 16.97 7.26C17.06 7.26 17.25 7.28 17.37 7.38C17.48 7.47 17.51 7.58 17.52 7.66C17.53 7.74 17.54 7.91 17.53 8.05C17.48 8.34 16.64 8.8 16.64 8.8Z"/>
+            </svg>
+            <span>Telegram</span>
+        </a>
+    </div>
+</div>
+    <!-- Контакты -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Адрес</h3>
+                    <p>г. Севастополь, ул. Токарева, 18Д, корп. 1, подъезд 5</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Телефоны</h3>
+                    <p><a href="tel:+79790782515">WhatsApp +7 (979) 078-25-15</a></p>
+                    <p><a href="tel:+79787789683">+7 (978) 778-96-83</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Часы работы</h3>
+                    <p>Пн-Вс: 10:00 - 20:00</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Запись онлайн</h3>
+                    <a href="https://dikidi.net/624247?p=0.pi" target="_blank" class="booking-btn" id="kntkt" style="color:var(--white)">Записаться</a>
+                </div>
+            </div>
+            <div class="map-container">
+                <div id="map-yandex" style="width: 100%; height: 400px;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Добрая</h3>
+                    <p>Студия ухода за телом</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Услуги</h4>
+                    <ul>
+                        <li><a href="#services">Лазерная эпиляция</a></li>
+                        <li><a href="#services">Шугаринг</a></li>
+                        <li><a href="#services">Депиляция воском</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><a href="tel:+79787789683">+7 (978) 778-96-83</a></li>
+                        <li><a href="tel:+79790782515"> WhatsApp +7 (979) 078-25-15</a></li>
+                        <li>г. Севастополь, ул. Токарева, 18Д, корп. 1, подъезд 5</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Студия "Добрая". Все права защищены.</p>
+                <p>@mezhevik1n</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</body>
+</html>
