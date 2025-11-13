@@ -412,6 +412,8 @@ h2.section-title {
 }
 
 .about-text p {
+    margin-left: 10px;
+    text-align: center;
     background: var();
     margin-bottom: 20px;
     color: var(--gray);
@@ -1302,6 +1304,7 @@ padding: 0px 0px;
 font-weight: 900;
 font-size: 40px;
 }
+
 
 
 
