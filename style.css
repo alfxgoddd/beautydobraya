@@ -379,7 +379,7 @@ h2.section-title {
 
 @media (max-width: 900px) {
     .about-text {
-        width: 450px;
+        width: 300px;
         margin-left: -10px;
         text-align: left;
         padding: 20px;
@@ -1296,4 +1296,5 @@ padding: 0px 0px;
 font-weight: 900;
 font-size: 40px;
 }
+
 
